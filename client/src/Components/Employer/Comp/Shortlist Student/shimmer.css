@@ -1,0 +1,248 @@
+.shimmer-wrapper {
+    background-color: #f6f7f8;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .shimmer {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+    animation: shimmer 1.5s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .shimmer-container {
+    padding: 10px;
+  }
+  
+
+  /* Styling for ShortListStudent component */
+.shortlist-container-custom {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shortlist-container-custom h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.shortlist-field-container-custom {
+  margin-bottom: 15px;
+}
+
+.shortlist-field-container-custom label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.shortlist-field-container-custom input,
+.shortlist-field-container-custom select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.shortlist-field-container-custom input:focus,
+.shortlist-field-container-custom select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.shortlist-field-container-custom .error-message-custom {
+  color: #d9534f;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.shortlist-checkbox-custom {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.shortlist-checkbox-custom input {
+  margin-right: 10px;
+}
+
+.shortlist-submit-button-custom {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.shortlist-submit-button-custom:hover {
+  background-color: #0056b3;
+}
+
+.shortlist-multi-select-custom .basic-multi-select {
+  width: 100%;
+}
+
+.shortlist-multi-select-custom .select__control {
+  padding: 6px;
+  border-radius: 5px;
+  border-color: #ccc;
+  font-size: 1em;
+}
+
+.shortlist-multi-select-custom .select__control:hover {
+  border-color: #007bff;
+}
+
+.shortlist-multi-select-custom .select__multi-value__label {
+  background-color: #e9ecef;
+  color: #333;
+}
+
+.shortlist-multi-select-custom .select__multi-value__remove {
+  background-color: #d9534f;
+  color: white;
+  border-radius: 3px;
+}
+
+.shortlist-multi-select-custom .select__multi-value__remove:hover {
+  background-color: #c9302c;
+}
+
+
+/* Container for the shimmer effect */
+.shimmer-wrapper-er {
+  width: 100%;
+  height: 100px;
+  background-color: #f6f7f8;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.shimmer-er {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #f6f7f8 0%, #e0e0e0 50%, #f6f7f8 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loading-er 1.5s infinite;
+}
+
+@keyframes loading-er {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Employer Request List */
+.employer-request-list-container-er {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.employer-request-heading-er {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.request-list-er {
+  list-style: none;
+  padding: 0;
+}
+
+.request-item-er {
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.request-content-er p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.request-content-er strong {
+  color: #333;
+}
+
+.download-button-er {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.download-button-er:hover {
+  background-color: #45a049;
+}
+
+.download-disabled-button-er {
+  background-color: #ccc;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+  font-size: 14px;
+}
+
+.error-message-er {
+  color: red;
+  font-size: 16px;
+}
+
+.no-requests-message-er {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Shimmer container */
+.shimmer-container-er {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

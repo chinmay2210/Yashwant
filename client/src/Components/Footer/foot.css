@@ -1,0 +1,49 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+/*===== FOOTER =====*/
+.footer {
+margin-top: 50px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,.25);
+}
+
+.footer__container {
+ 
+  padding: 3rem 0;
+}
+
+.footer__title {
+  font-size: 30px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.footer__description {
+  margin-bottom: 3px;
+}
+
+.footer__social {   
+  margin-bottom: 5px;
+  color: white;
+}
+
+.footer__link {
+  font-size: 1.4rem;
+  color: var(--first-color-lighten);
+  margin: 2px;
+  transition: .3s;
+}
+
+.footer__link:hover {
+  color: #800000;
+}
+
+.footer__copy {
+  font-size: 12px;
+
+}
+

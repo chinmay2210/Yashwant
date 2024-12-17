@@ -1,0 +1,102 @@
+
+
+.vs1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+label {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.pagination button {
+  padding: 8px 12px;
+  margin:  5px;
+  background-color: #800000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #b41515;
+}
+
+
+
+/* student.css */
+
+.upb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+.ups {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.message {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.upb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.half-column {
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+.full-column {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.upv {
+  display: block;
+}
+
+
+

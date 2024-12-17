@@ -1,0 +1,39 @@
+/* General Styles */
+body {
+    background-color: #ffffff;
+  }
+  
+  /* Section Styles */
+  .section {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  /* Campus Head Styles */
+  .campushead h3 {
+    font-size: 30px;
+    color: rgb(14, 10, 10);
+  }
+  
+  /* Home Container Styles */
+  .home {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Home Card Styles */
+  .homecard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Added gap for spacing between cards */
+    justify-content: center; /* Center cards within the container */
+  }
+  
+  /* Table Container Styles */
+  .tl {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  

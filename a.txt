@@ -1,0 +1,51 @@
+
+ Users
+1. Student
+   - Registration Process: Students will be added via a master sheet upload to the portal. After their information is uploaded, they can log in using their college email and set up their password to access the platform.
+   - Student Features:
+     - View campus information.
+     - Access and update skills.
+     - Browse and apply for jobs.
+     - Verify their profile.
+     - Access preparation material for job applications.
+
+2. TPC (Training and Placement Coordinator)
+   - Role: Responsible for managing student data in the web portal.
+   - TPC Features:
+     - Maintain and update student information.
+     - Monitor student profiles and activities.
+     - Oversee job postings and student applications.
+
+3. Dean/TPO (Training and Placement Officer)
+   - Role: Can view a full overview of the system and verify employer details.
+   - Dean/TPO Features:
+     - Oversee the entire campus management system.
+     - Verify and approve employer registrations and job postings.
+     - Monitor the coordination between students and employers.
+
+ Admin Module
+1. Campus Management: Oversee and manage campus-related information.
+2. Student Management: Handle student data and monitor their progress.
+3. Skills Management: Track and manage skills relevant to job placements.
+4. Employer Management: Manage employer registrations and job postings.
+5. Coordination: Facilitate interaction between students, TPCs, and employers.
+6. Campus Overview: Provide a dashboard for an overall view of activities.
+7. TPC Management: Oversee TPCs and their activities.
+8. Preparation Material: Upload and manage preparation materials for students.
+9. Notifications/Email: Send notifications and emails to students and employers.
+10. Verification of Preparation Material: Track and verify which students have accessed the preparation materials.
+
+ Student Module
+1. Campus Information: Access details about campus activities and updates.
+2. Skills Management: Update and manage their skills for job applications.
+3. Jobs: Browse job listings and apply for opportunities.
+4. Profile Verification: Complete and verify their profile for employer visibility.
+5. Preparation Material: Access learning materials and resources for interviews and exams.
+
+ Employer Module
+1. Jobs: Post jobs, review student applications, and select candidates.
+2. Host Events: Organize events such as recruitment drives, workshops, or webinars.
+
+---
+
+Let me know if you need any further adjustments!

@@ -1,0 +1,34 @@
+.ctble {
+    width: 75%;
+    border-collapse: collapse;
+    background-color:  #333;
+    color: white;
+}
+
+.ctble th,
+.ctble td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.ctble th {
+    background-color: #800000;
+    color: rgb(182, 182, 182);
+}
+
+
+
+.ctble tbody tr:nth-child(even) {
+    background-color: #333;
+}
+
+.ctble tbody tr:hover {
+    background-color: #555;
+}
+
+.ctble tbody tr td:last-child {
+    cursor: pointer;
+    color: lightblue;
+    text-decoration: underline;
+}

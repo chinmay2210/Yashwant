@@ -1,0 +1,1 @@
+export const BRANCHS = ['ALL','Comp Tech','Info Tech','Electronics','ETC','Electrical','Mechanical','Civil','AI-DS','AIML','IIOT','CSD' ]
